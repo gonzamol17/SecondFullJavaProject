@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test" duration-ms="21330" started-at="2023-03-10T18:28:11 ART" finished-at="2023-03-10T18:28:32 ART">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="21330" started-at="2023-03-10T18:28:11 ART" finished-at="2023-03-10T18:28:32 ART">
+      <class name="test.TestCase1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestCase1@291ae]" name="openBrowser" is-config="true" duration-ms="8804" started-at="2023-03-10T18:28:11 ART" finished-at="2023-03-10T18:28:20 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openJavaScriptDelay()[pri:0, instance:test.TestCase1@291ae]" name="openJavaScriptDelay" duration-ms="11587" started-at="2023-03-10T18:28:20 ART" finished-at="2023-03-10T18:28:31 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJavaScriptDelay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestCase1@291ae]" name="tearDown" is-config="true" duration-ms="852" started-at="2023-03-10T18:28:32 ART" finished-at="2023-03-10T18:28:32 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestCase1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Test -->
+</testng-results>

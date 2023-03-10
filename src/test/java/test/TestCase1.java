@@ -1,6 +1,7 @@
 package test;
 
 import PageObjects.HomePage;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.TestBase;
 
@@ -17,6 +18,8 @@ public class TestCase1 extends TestBase {
         hp.goTo();
         hp.acceptCookies();
         hp.selectJSDealys();
+        Thread.sleep(2000);
+        //Assert.assertEquals("dos", "uno");
 
     }
 

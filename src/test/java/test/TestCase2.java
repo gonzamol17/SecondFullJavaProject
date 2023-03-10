@@ -1,6 +1,7 @@
 package test;
 
 import PageObjects.HomePage;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.TestBase;
